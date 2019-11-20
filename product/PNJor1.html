@@ -1,0 +1,366 @@
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="csq.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <nav class="top">
+        <div class="container">
+            <div class="pull-left">
+                <form method="post" enctype="multipart/form-data" id="form-currency">
+                    <input type="hidden" name="code" value="">
+                    <input type="hidden" name="redirect" value="https://demo.opencart.com/index.php?route=common/home">
+                </form>
+            </div>
+            <div id="top-links" class="nav pull-right">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"></a>
+
+                        <li class="dropdown">
+                            <a href="#" title="My Account" class="dropdown-toggle" data-toggle="dropdown">My Account
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li>
+                                    <a href="#">Register</a>
+                                </li>
+                                <li>
+                                    <a href="#">Login</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="logo">
+                        <h1>
+                            <a href="#">Diamond King</a>
+                        </h1>
+                    </div>
+                </div>
+                <form method="get" action="https://hocwebgiare.com/thiet_ke_web_chuan_demo/search_by_category/ketquatim.php" name="timkiem">
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="text-center">SEARCH :</h1>
+                            <div class="col-xs-8 col-xs-offset-2">
+                                <div class="input-group">
+                                    <div class="input-group-btn search-panel">
+
+
+                                    </div>
+                                    <input type="hidden" name="search_param" value="all" id="search_param">
+                                    <input type="text" class="form-control" name="keyword" placeholder="TÃ¬m kiáº¿m sáº£n pháº©m, thÆ°Æ¡ng hiá»‡u hay nhÃ£n hÃ ng mong muá»‘n â€¦">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <nav class="menu" class="navbar">
+            <div class="navbar-header">
+                <span id="category" class="visible-xs">Categories</span>
+                <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="E:\Protec\web1.html">
+                            <span class="glyphicon glyphicon-home"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="E:\Protec\web1.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PNJ</a>
+                        <div class="dropdown-menu" style="">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="E:\Protec\PNJ.html">Original, (4)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Semi Precious (4)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="see-all">Artificial(4)
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Skymond Luxury</a>
+                        <div class="dropdown-menu" style="">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Original, (0)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Semi Precious (1)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="see-all">Artificial
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">SJC</a>
+                        <div class="dropdown-menu" style="">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Original, (0)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Semi Precious (1)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="see-all">Artificial
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </div>
+    <div>
+        <div id="main">
+            <div class="container">
+
+                <div id="carousel-simple" class="carousel slide col-md-12" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-simple" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-simple" data-slide-to="1"></li>
+                        <li data-target="#carousel-simple" data-slide-to="2"></li>
+                        <li data-target="#carousel-simple" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="hinh anh\kc1.jpg" style="width: 100%;height: 50%;padding-left: 200px;padding-right: 200px;">
+                        </div>
+                        <div class="item">
+                            <img src="hinh anh\kc5.jpg" style="width: 100%;height: 50%;padding-left: 200px;padding-right: 200px;">
+                        </div>
+                        <div class="item">
+                            <img src="hinh anh\kc6.jpg" style="width: 100%;height: 50%;padding-left: 200px;padding-right: 200px;">
+                        </div>
+                        <div class="item">
+                            <img src="hinh anh\kc7.jpg" style="width: 100%;height: 50%;padding-left: 200px;padding-right: 200px;">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-simple" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-simple" role="button" data-slide="next">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <marquee class="h2">Diamond King which honors your beauty</marquee>
+    </div>
+    <hr>
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                     <td>  <img src="hinh anh\pnj3.png" style="width:100%;height: 250px;"></td>
+                     <td><p><h2>DIAMOND 6.8*6.8 SI1 E PNJ 10207.10068068 </h2></p> 
+                            <br><h3>
+                                    
+                                    MS:DI10205.10070072</h3><br><p>Call for price : 0986480239</p>
+
+                    </td>
+                    <td class="h10"><a href="#"><img src="hinh anh\giohang.png" style="width:50%;height:100px;"><br>
+                        <b><h2>shopping
+                            </h2></b>
+                    </a></td>
+                </tr>
+            </table>
+        </form>
+        <div>
+               <p><h1> PRODUCT INFORMATION :</h1></p><br><hr>
+               <h3> Trademark:   PNJ</h3><br><hr>
+               <h3> Rock formations:   Round</h3><br><hr>
+               <h3>Cut (Diamond Shape / Shape):   58</h3><br><hr>
+               <h3> Carat (Diamond weight):   6.0ly</h3><br><hr>
+               <h3> Color (Diamond / Diamond):   E</h3><br><hr>
+               <h3> Clarity:   SI1</h3><br><hr>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+                <div class="h8"> </div>
+
+                <hr>
+
+
+
+                <footer class="hai7">
+                    <div class="container">
+                        <div class="row hai6">
+                            <div class="col-sm-3">
+                                <h5>Information</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <h3>Email : lehoanghai16051994@gamil.com</h3>
+                                </p>
+                                <br>
+                                <p>
+                                    <h3>SDT: 0986480239</h3>
+                                </p>
+                            </div>
+                </footer>
+                <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>                                                                                                                     ž{\R¢Óç†Û-ÓÔ$Á!)%±£$ÞÓ!S~ßÝ?ÿõþ¾¯cVýKÛ%þû5ª,,FrBÆàXX™îÈ¹âPÆc‚Ì ðÖ™Š}n„!S•¿Tˆ^Š†ÌÉØ!–kt¥%°¨ëoŽ‰À1«¤òÏ÷AWèî·ómFË-s˜BEœv¯¶®qŸvµ;GßÁÿû”Dç þLXËRðZçêÀg\
+ñ1^¬`ëÁTëÕ‡µpý{3TËVŒyáš‰³TœL¶V±ˆ™ž³1ÞiUŒ‚d-Z¥)–—ß¨bs/SIÿškÿoÿÿÿþßÊÿZ½ý 
+Çø†bû5‰lv4é´’ÀÉÆÏÝÊãûÉF0±…H?´ˆ½çcê÷;Šå~Éÿ¸ýÙCX¿[÷¿ÝP$ÒjŠ?SF£?±ÿÉú95ÝLwK&†žâ·¶º#ÒóÛÄþUõÎ÷ÑQ`Ä1· RH$8@Ü¯põ˜±÷w÷D;Î¾ó‚0Î¾0_øAÓâÆ¯A‡9®£þïÿr¶ûÿ®°ƒ¨ÀJX“žE¼\’§@—FRiåµÙp‹ÖšŠïoTã^lüþ÷½¨ Î5²µ‡m \ÃÈÄ9c>„¾Î¤còçôº~„C/çö~‰š#’u?·£Ù\°ç9Ô!FBI5­ðÕ°¯U‰ðáxQ¿+ÖTŠ%+<8ç	Kÿû”dá KPØÓ:ð=Û aª\%3a,àëÀÙ®4Ç•(÷Ÿ‡Kë}nVÁØ„(¢Þðöv*'Æ÷ÿL‚‘HÍT*kzEãg_§(ZŸ´ÊÔv×ú|—ÿîÈÄÖô¯ÀÕŠn¢1G"<gH(ñ,*þ+VÍJ}Ë'­rP¼,÷´XP±–…†³Ç²Úëþ?Þêý{uƒ¹‡óOYSÍ;\5Q^ß©è+OÏ_ãÆ_ô?Ó_æÛô&÷Ä?!_«Ö	ZkíLÚ¦|Y§;CK,;5˜ÈR…îœ÷/ P–çÔÎY"€çIi"|°+vI6M£>=•Pn’'ÛÓ“”s]ß¾Êú’súßÕ©ß²ºÖ6øø5 øøÆ‚§ M¨ÌÉáë±yÁÃ'¶¥û“V¶é´+:Ë_œÀßË¹oþõ@œk˜lE:Íš+FÓ‰bïãÿº(`ßÕ¿íý¿NG¡m|;ÒŸúÅ’þ®$Å¹­p7ÛYr„9Fg}Eÿû”Dì ?XIøRà_É	=ê^]3ZäëÁB‘ë‡Å(ègjÎ»n²®3½ü7†°¢æÐÓ€/=”üF›TB¤ÈHþGý\§_•~¯3LEÑÖ{ÿÿ¨ R€–*¼ðä:è¨¯à3x£ýÁ?º÷Ì)J¨«‹Ð»wý-g¹—çžéX,æÿ˜o;²}ó–uÏš¬q¯r‚(‘Zj FwêŸÎFÎžf˜ÅVÖÆ/F”"ÆÓÏÎ]Ñg'Q[ºz¦=uè=œËÿÕæ;ZÚeäè§Â-±ÕJÆÎ2JúË¯u.±smÿˆ!H¯{[}DZŠ¿ÿü€r}XgWu‡ýQ½Php'ù¾éOI=toï·£Ê¾&îM¿ÿ®(X‚*¢B‚G˜žµˆ³¼š*Ðö[aqï¥UcLöIúï~ÛÞ Ñ"tgÏâEqW_;ßýŒíÔe˜1ýMþyfýÿ÷oFõÄ×?îíô¿ãçu£¨;¾óçÿ3ÐT¾µlbìœÿû”dä ²?W8:àJ…«=êLI-],`ëÁ_%¬¤÷•xT°­Ò®`YOH4Ú$•§|Àf»Ýºˆ„µîà wñlŸÿÒsô3öòêë§ºõ•Õ¿ÿÿé ¡`€S-:OƒOKò´žœ€Ì@Ì¥GÓÍ+LÅ`ëiÏ™úŽèºk3#Àks8«sEžÚ…‰õ¿æ£þzûmþÞ˜úûµÐUýý5B¤ñ(‚š‹6èëm¸8áv¡5fæ°!R¬ÔÄZýïë¶ùaÚv­€ø¦7r¤€\U6ôÀóÿá®Fý%LþÊZ#vëÎ#P«×"Ø½»èý}ýV£ó`†Nµ·¡î,i©QrwQßAxíšîS`/Ù1¼Úš`*ws[YÁ2ŠHÕL±X¢7BR_ãQ‹þæþq„¿·Ò•¿­ ’þþG¨)a )ªuMkZ.NôRú¥±Æ) "ó‚zZ½8xÿû”Dà€¦KXË:ðND‹9=ëJ
+ø÷g§°ëZ’«åŒ-(Â¾Ì4=®Ž¢[Øþ+‹”ïBhÿ0ó¿Gý,þ{Šû÷}ÞL—õ²¿P	À„þäâHð×$Èó¤Ò)—©EdµãÆÐ7y¦É!Mbßþ˜6Ê÷ÕÇšÓR}cü½M3äž›áÔ›ôq“*¯ùÌÖ^ë_VGøñaÚ¦“ïBìüÎýbA›àtb·–µx%–Q Õ‹÷P¹²Œf<HG»nädq³»ãY|*…¸ö]–j5³U2GOµ‘2e-Ÿ¬—EÎ.û(Ég”×%é¬Á³{1Q]Võ­ësì/Õ©Ò=m­G$#õf bLÀ(îˆq¦[IÆkEi‹ˆòå(£¹1ž“¹ä¤ž·f½÷ÜyaèãßÃÊ@ÉÈZwÁ€#^£÷¶ÿùDuëùJ.IÓ5$û×Êþ¡"2]_ÿ]9AæíþiÂÀb•eš;äI¿ºjí€Ê>ó™ÿû”Då€n>WƒRàLå«)açL¹/e'¼ëÁ}–ëU‡µ0¯ŠÆbƒÿ¶¡ö«‰ÎýÍp5—B…PÂJ"Š¤ÆûÈ‰êQÿRÍùÍéªßëéœNLíöäúÈð«²¿—´Í×D¾!¢€6ˆˆ‘¹Tê%éw€´"z(?°òäd,!j3·~âäapf2²ÒCòhœ‹,íÒŸ)¬”tÍ	s QJ ·by’™ÔÕ J¤vEÙF*ŸeQQt¦ë¿CY¡q“BÃz¿P©Yˆ’Î*ïë/ÃÐ[TlL4?…´T‹$£q°$r5 9XIéƒQÜ	,XÀ%ˆˆÄ€<¸ ¶a…O_˜í°NlTþÓÏâ~Øu«¶·?	ÿ³üçÿ»¥EÉÅq’P¢²Ö´ñ@UÌóªéŒy+[_i_™-µ‹P{Ø‘éDg‘@—K÷‚€¿ÛßØ#3÷×1¸jËæ
+4u^çª»Í}{_ü˜än2˜É0FUßë0a§$ÿû”dçµ(×Z`XgË)=ê\`Í^á«'¬@ö-(ioWÆGÙDY¶©Ý	$² µ<a®’@iV¶‹Wkîÿ»ÞòÄ½oQÂá`IóæI‹Ìïû2}?ÿÖh‘öTÝRx™Ýù çŸÒ:	Â¼÷¾³Äåº³ÜŽËGP¼.bJÄ€’nÛ
+æô.ÿ•ô½ÞˆŽ‡±f¡HŒŒ{»š‰ßèÿ¿k_&¾…$â¨  Iœ;‹2“¢T‹JE½qt¬B«RG†v-ZJ•u†ýS¼Þƒ~ÅSx ü©½"¢T
+¾¤=ÌPç¬4”¼aV™X…¬íæ	­<Ó{×6ºi®¥ @z''p6´ˆ…'é*	.L?Â™Ñp9?8ÐþG’-™Æí…`’û¥ØHYSšÏL”€7=	g‘ÚÜ©îŠˆª×¿>nŸJ¦ª8ß»ª|ôÿÓÒG|Åñ-£WÖÖù U_œÄ8\‹Ú™r‰„"œ´ >(Q·5QPÿû”Dß€m$X2PND‹@=èJ
+ˆ·b¬1IMîtô™(AKŒuQƒÇÎì¨¡èúûò€Yøøêªjâç<(cRðð\D¶‘O3LTq¡XiÊ©hR[µÖs–Õµ`Ü;TaTà®Hm²²·7	ÁE	²SÖö2¾ù$
+kQˆøW6žQÔƒ¡²L¶È„º–’ºÎ6¶^p:…% BçN2èÿwG¾›ÊŸÉ é$%d(z”öR—r2àY—Ž4ªÝ3ØjëSšÎª”yâ}™Q½ìáÖ¼íBŒ<híIÜË¯}c§ÕßÌêew´‘"*½r¡¦  ¦*ÄŒ°¨Q§Ð6C¼ú&´O'PÓyÌåùžXoŽÇ;¹A¶¾y7Y¶¨ðšÅ#g,{d„äî®_šuDCKS_^íž{[U1niAt¼©\ªÉõÒX´‚]¼Û"›ú|s|OÃ˜éA„tÑ±F›mÃ{ÿû”Dë€ßHØ+:ðZ„‹‰=(J
+Œ‘b¬=©AQ­hö!($%+-Nl‘æl’b©ÏJ^Ê`øø¥!ÑDþ7¯0çaPôJ!«çgP¼(z•Rü÷ˆ7ú?ä“zÖ#‚¹å·’5Ø“:?þ.IÔJuM!Æ®Í
+‚JÙn¸¼§‘å=>>¥OÚ¬ÍÙR½zõÛò!2¼W¹š¦Í8{f™Q<i¿¹•_ÁªÕ &( x
+T*£Ë‰‚ítÍøÐâ‰æ†°xàÓJ®YÐ;QìnÇ+>l¶(á!·{£59ì†õ˜a{d#
+sM(Xˆ´%’¼©êƒÁy2¡ËSÕµµ]Ú¾ž—v¦Ei·õ9‹í‹Ò!WQ4Éh¨sŸÓÏ‘ü'åäq9š2§’Ö„âƒ^ùæô-ézhõðp!¼Û³d §PéR Î!ö?ß*¯A…‘ÙÎ¤!×F ãÁˆ{ .ÍKo~òD2è[$t¨DrWN±m®‚ä#ŒÇ‘È»x`¹…ÙãÈÿû”dê 23ÙÉï:àI‹%=èJˆÍq§½–ì ö)0ªaV<[%#«
+Ÿ¸Ï%Q`p6$¢9êD¸õéæú=HNª]½ˆkŒ~ÚÝÙÄŸåÿýabA	²K—dAÌª‚/RTe´Žè±vÉ¦z	²öÖ„—ôÍG ŒÛ©« …ýß¦l}&ÿÃ¿Ãóí‘
+L{½§z¦MacZCLÈÝ:c ¦±N"^Ûë©éd°	§VÞŠO¡ }49“Ù‡05à!vù†f|>°Ø)àî³øé#d5´o 9mêßª]S]z‘ß-@ýWÞTø«QcK/³ý/ÈuŒ²&5yGÿ/’`Cý:Yh‰èžìØŸÂRª˜L€Ÿ:b>KB}$Æ±ª®ÅØ8í%Øj@iæ½Ü	ƒpÔ»^Ï'Ýü³‹=¿ÿÄøA
+± `æþ ßõ»¯úÁ>®Æ:¼ê-è£´NÉ¢¯Güe{©˜Uvµÿû”dæ€ô1Ûéì*èEä{=*JÈµm§±ie–ì¤÷­0™æ¾Zª³ïßI ù Î1(˜Ž	±ójóQŽ6š®¹ºúµ¢ÇÛÔ<b£RóYdl(–âÖ)ÌÑÖ¶~Ïõƒ$ù—è€r™¢éÜÑä„áâà±1x‚j•Ž¸Žéæäu›µÑ€¦•V™±Xy94zî °Žy­›äÐÿÌÍ(ÑÛQÿÿóÉ\¦èJt{šªÒ=Éµ>üû¿UHÀ7´ü‚¬ùÊ4®Jî¨ÄRžÔ©Rù Õtíí‰œ6‡X§rÞvTï=ÐÊ0ð4XÍßlTmíŠuÅ×§íÏóáÚ‘^òÿõ…ÁJùïéýÞ¿]ãø¯`Ä`(EÁ.‚è¨AÒ‘ò–î¨…,[vÄ*Ï«{®~ÿæu¬y®ïÛRšõEBs‘Ï ªaúèxÙºÕ“µË;ûÎ¾så¿ÐOêŸÝ÷iï­,6µ!Ñ·]‰¼ÜJ{s`˜¼4!QZÿû”dæ€²-×Z`Våºõ=íL(µ`¬=iU«ÕŒ!0³-Cî_€ÜAsþ ¨Mkz¸±u&áÿ› ÇŽ3õÿ8ˆy“Òus­ÊÂSÖÈ¢LþûÆÑU
+o·rÔíhœ™ËNgÁÙŒ;Ã‚NÓT‡í^§Lz9êzž—»oàJÖ9û©^O5¼~þ¯¨è†$e.ìâ ‹˜DÚ"TÕòç·ãøÊ¿›m—>ßÿËõø“­ýßC¦ò*kv®0•ÿãx	|?/,ˆã% ¨Ä5¥zªÑ+”¹;r[n­ìÍ ˆeS<$öÊÍ§ÕMoúúê»½üDïú™YµÔ¶£÷ó5ßý’•ej{ù+ý/TbTbìÌñJêqfÃJmàwa3æç#Îñ¥gð¦DGDRzxÐ>PÔn>µûyT•)1ŠŽk4|~.¢‘ºe‘ï˜¦Ïò´ê‘v“‘ÈOßÑçi”gýÕ•ŒÞ%ÿiáæxC?	¼ô ú6õ¦Š%¡¨ˆóQP¥8Uÿû”Dæ€³5Ù)øRäTÛ}=e\,ù^aKp.¬äõ•¹vff&CDtšaÝx˜cÆŠ"wUq9¼NÝaí×#}Lîy¿öý7PÑpÂVûkÂ‘¸£&ãù\…'Ç:îþÒ±#‚¡ÁØNsjþGÂå¬·QHLM’ó‚l„¾†ên‚	cÜˆŠªÖ´ÖÕl‘çF§{žÙúÙû=_åÏT+Š¿Xc‹_	±H® aîI3éFq\è³*DYQ±ÖØïã1=¾¯–úÙ<áïÿñ‰Ë„Ûïà6wcøX–RÐüÄDQx¨ÖÿRÅ¾æKÍÚc=4îûNÉ¥T„žÕVå’w‘uê=ì¡RL^»Ã<\…é¨²:Ñƒ’{mFœir‘Äóxý{?ÿü#´®w6ÀA¨ìø€.j$©@t_ñ8ŠÚÿõb,ž¶ì³ÔÇÍ3ÖÜÁãý‘+>¦©hÙé­–9QuIÈK-t)#…U¶édÎWa†ÿû”Dä€q(Øj`Lä‹I=‡Jðýk§­«q¬¤÷p]¹AÜríÖŸI1{œïØz"J27'• Ž¤³.;9“ºÐS–¥ªªÔ?¡ûšÞŠŒíoEÐxÿïæzÆÿ¨dèt/«O‹&,µû^ˆÎ²‡n.À×Ï¯,z	Öá×ÕWD$=²ìÉ3gU²øxît>åñÏÅ)×?ê_ün;Ñôj}˜”jîÿvÏú™J×èXÅ¤`6„ÁÇ¨é¼=q!·4VoØÕíß’0ðŠ”|Å1 ¤7$³sc$–}Ù¨“[Us§ÌÕ‡ÝÏrzl¹ku)ûºÕ  Àƒ–ƒ<‚”i|¼|²‡‚a©‰§ÛÂ<àdR<ž¸ I·ÿÂì1FVGj|‹%,×Ä/ûÑ9ç”²Ì¤Nžn6£ËWD,Îgç„cê¾~kÓ}{³þ7ÿ7­Üóæz3ÓÔÑt‚6Õ~³`  A51a›uÒÿû”dç òã?YÉï:àWeºàcL	ð·^=i4«À÷µ0EÈ®€,;Œr-ÚÃ"ŒÓr‹ð¿Š¨¹Ô·ÿ¿ô@$}iÕ<ˆxmñ| ?¾ê¥ïý•¦¼ÝÆ£ïÿQC«û^5ë.®]/*#G,®?Mž]pV¶JazÈ)	qÈP28ïr†z¿@'ôDX‹À¨0Ùn»¤ŠY5ü*Áäƒ;â
+b³Ÿð+,¿‰©^5 óìšF¥NÍSNþCízsßUM:íoöÿ±m[ÛDˆ‹%€Î·5|í´QP±dËƒ­‘º
+,ü5©#\l›…Û1AÔ&7:ÛQ¦¢ö7º…KØû¨äÒz»˜’tGÿÿ_ôsçp—¡8ŸnüSì¥”BÖÇÐdAsDˆj”}CƒtŸ:¶†ìÔ«9› ›ÏÿüÃCµøÚ”S^âûiV›^b}&Ýr¢QÛékû&ù¿íG­^õzÉ_åh\›J1Ù )ÿû”Dì€cQ×Éï:ðcåË-?LMGiG¬ëÁ<–«‡­0(Ï·$°b~2Ÿ,::d!Æ#â"NH“cVËƒFpÙáPEiÕ”„UP†.®.¸VR6ðç_{>ê^“½S@zŠ^rH¢«¿ûÊìûž cÊ,;Üs!¢Âž7N³±èçJ¹JÖŸ&ì¹‰+úÒ_?ûnbûny„…'W@/Tm€˜¼Ûî!lŒõrUšYÿFé©é¦t¢%SùäFªµÒÞn’Â±ý©€P€="‡¥IäÐ½Í25Á¾ ÿDI{ã}:j}j¿`«ns†¸Y(é¿M’Üš"€˜&æH·¨©ò:XêBw—»‡}ýï÷ÄN£õª ÃoÆz:ŠÄryVld†£n¬?Ø¤º-E1=÷QwUWü5SÊ1÷—jF  ŽÝzT™‰|ÂVªjx©eñšÿ*ÿÌþa¿ìÛò1 ‚t"õ/¥}ÿQÿû”DÝ€ü?XÉøjàSšõaëJðýe'½K<ëÔ÷½(P&zïÔ"<½ànhÂþe1ßÆVC¶ÒSRþ®çÖ-µ.gŸv:K×ÙåGqdng¼•?S\÷ª-_ûïÿç¾Q8–¾þOÒªºÙÿþ 1	;üêÒn‡¡)D‹d©Wxê'ëL?Yl}ê©A}äâñ	–|¤€Põ:Ùä™š
+CÉ5wfA•k‰«®qa_Öÿœ¿³zjèëéÿÝ-¦þ¦7î.uvé˜~À†¶[°‹¯v*×:ý<5Ž¡±†”F¯,ãRÝÇÂÆwQ<°Ü.Ÿ[(ÄÄm<Ô²¡ˆb³5³Ôo©nŒÌríÜv	F‡^²ô0Ç_Ð{.Ê~Ì½{}Rð$’E«åøêUÓp•+›®ÕG&êð-xŽG#º¿wq·ŽêGŽKïÒèõ³?•ÔŸþDŒíãXÌÍÖ-WÑ½–ÉøÊ5N×¯ÿþÿû”DÚ€‚Ä>YIïRàSºàcLQSg'´­Á]’«ÕŒ5(Öÿö(ƒ!Àw!EÊŒ4b‹
+ Ødó«ŸF¸¿ÅÂä¥š\jôM­œc?¡ILßZÞˆPDÛá…,Èm¡B FˆH”AQÝ·>61íÊŒð÷ÿÿÿÝ÷TÚF‡Ãrâ¬.í®ñµMhÒ)¥²àÆ®ÂqÑÅi9·&Ø˜çq‡	K‡¶ÕÃ2òkÿÚœAÅóÔ ªÿ ZŽˆÆ¥ÓK°ø]te*ÿÑÈöìG)^"nêÿ»û(ÓÎ¦:d•§I¹Û@@fGVe°—ÆŽXá™ïðtM™Ô´‹]Ÿ0(;|*×´iÇdø ùúhÿa?ïßÿí@êÚÎö	•ìY‰œÏÒ•K¢½…Ý©^v
+¨0dòšÎÕÔî?ßÆŸ1eR…Œ*\±ü|F*ÌdŒ?õ"©šùC	‡zš›z¹7ie-F_c¿ú“«X%‹K"º\Ôc¦+¢R»š*®ðâ'ÿû”dÙ€ó[^[iì+zG„û =êL
+\µu¬<é¡¬@ô­(½BÖ­®Q}o°3k¦“XG_ü}Y+êd€Ó[OUÔ]Û˜@…*§J¿[½ÿr¿QÖÔ
+…@sTbfD‡Å‘CñâºiÀÉ¶x(²ˆë	½ÚƒA_Kèv+¿þÒ6X&×.ÔAîÓñ–;çÿÐÎË¹?ŽóÎ½ZÔk¨P"3„^þ‚c«È×B3É—Êêê5¿vÞ¦J¼ëœuéfDk§½¶Cl»èÜi»_ã)‰¢xä$òT>;Ã<ÛBÈµ×½íº§–¯?®ð™nÖ¬êJ
+GÑæEÃC'tÞæžûÏ«åßê.œo‰m4õ[lNy]•:…öÎ¯m·¾ßEJ
+!¦j•a8&Ej$‡ÔÒy×2!š&"U}ôJJH]œ~¹T¸ê™Ò±Zz·8ÑžÆ‡ShÕ@Õ+Fø¬µ­d_íÓÍ^¶’9u…øÔgÜýQÆ;tÿXA@³TÎÿû”dâ Ž-XøR`I#ë=ëJ™i‡à­áClT÷µ0‡ÅŽCv"xrÈ“£b¾¹Ð³ ³ŠÈ¤¥‹âWYðã‘Ýs¬`…9Ÿ:tµ]Lªõ5‘©¹ƒ‘ºÀÇ³.ç,[ˆ’š®×)w·ö³£fCÎT.ù
+ §‰©Ê‡ÂK¶+Tƒ\¾:ˆ«}LÔDž¾ùÁ|×ÏúðNÖgŽ¯‡jì ™ærq“¹§ž²ƒœÙ	)ëò'êî±ÄôdJÛr‰±Æ¬}?¦§ò½†û-¨K‡æðŒ‹BUhk7L0På+G).“ûàVß	jøÿx†+¡(q²i¹§zdšNÕ'Qþ·¬‘I¿IKúØÔ…˜³_¢´ºä¡ÌG¾ßæ¿åª‰¬E¶h­*»]³îÿ)¥™Ö™*D+ÌêöïàýÈ®÷ù¼¯ŒMÒ#.hxœÕ3­eÑÜff§£XöNµê*GoRUuN©y÷Ú€î…»—vU:Hõ¿±ª£“ýfÀ;nÇ{&õÿû”Dß€Ý:YIïRàTD›)=íJ×i'½K¡>¬T÷µ0<ßbï£Ë:”Ä›Õ'ä9Q¼ï?D[©b&ˆ(êõ¢l¤ªZãÚô›ZÌî•ukcü³ô³B¿èµ,ë}Ê[ÿ¦ +	¶	*Â@\ CtHì>P¨ì¤Ùäš$«Ü¢*bT|¢Èˆhy›ÔTæ©ª¤À‘}\Üã×èþœÞÈPœ¢^jù'½)Ñúµ{úßãÒ±f—»mX)[œìà.ãn[ùÙÇ]g‘\°ÖzÂ»Msp×pî¨^šÂ@îTÞ'Ø:½›ïb?Ü½Çÿ[—~Ó>þ‹´S[ÿ¦Œýì80ª†,UÈÃh©j‰P/Á¬»7­¨«7šãWé¢Õw —îSµ_w%–uÏ×ý#j/Sæ(hLsÌ;8l×ßO\E wóþj(ê…Ü@ø¡<@¢ÄùÞ‡m«¢]mlÿ…"Ž×ôãapÌ û[Þ_æÇ´›®?¬ÿû”dáË-Wƒj`P%«=íL
+ ·`Á©S”lTü-0‚é]ÓærÀ Ów…™ŒnÿúB[MùóÒß€_¤ÿG[,ë«Òïûªÿßw¦\Ûá¦P4ä-Ù,¹ç"2uªÄzØLó¾Ô£øPˆ,uÄmÕÜãyQ/ßµE(òm}â1œêu,ÔøÿÊ·¿L}_Q¬Ñ%‘ÒïjCÑ#Hå¢Š{¬ŒÿSû}4Ù‘´;*])ú<P\ê°®%–&)«š˜zŽe×¢è%§ÓÞ¹¹œIïYÿ¿j©¨Ë¨vÈÈc*#˜°ÌÒÃôß80LWe½ÙHj6¶±K‹ÀÊÎ‹¶3Þ»ÄÓÔŠ}ó¬J(~êvJª0Ê7…I
+³$N3é¾Þ¸<mç=zÖ®«d®þÜ€—©:b´Ø€‚	EžfuÌÈa|²U©Ô‘<ƒ-VYóN¾Æ»#rÔ¤6±.…JÔî¾[¬¯¿¤‘ˆX´d=Ér-H¢nŠÉX ¢Úÿû”då Ë-YÉø:`?d=éJÉUg¬<­ÁX’,÷µ(“µ5âúùhÖT
+		Ì"Pé±0!ÜÉ|Eµâ$ÿÖ)U›”c_{)GÝ^Û¿ïò@C IPÃO	ÆÄMS" Qn'‹&å&¸ÐSP[	Lz½Ð“aŠÇ‰uÂÑ7¤·~QÎVs^hså=E§nƒ…»¶¤¯æ'__÷¢#Øó™œÉÛëôÓü©çV.‘*„à –Ü¦ˆYÔ	Éèˆ4ÖÏýƒBàÖ‚ç^@jþO“ë¿<Œ€Í7aFQÙ…J£á	ýIÝÒåtèÌõ8DQËšAK,ñùõ>Òëp™T"½‘ê×]|ÿË¹ªSÚ7UÁ_q`›ê®'(V1WðµbÛÿÿ‚gŒ*:¨¸Nc#FjŠ‹™ó½è ¹‹ÓÉ–‘kÄCê¯íZT³¬[Zþµï¶Þ·±ã—i]©‹ƒáO•ñØ•iÖ©¨ZTˆ–nË=÷ƒÿû”Dä ¾)WøŠ`F¥» >ELEAc'ÀëÁpš-4õ‰pucù7öl+'ˆ–»ÐïUZ×¨´qŒ¾Öþ?ã5úSîzÓuº¤eÔn!áà*Rc)„ƒ<&¨'KèþƒáHïä	Ä·&f›ðÀirÝQ15ºïù=}õµ»gP°Ñôñßä=:0ñJ¨Æ3J"º«%&äë]õmfOÿçkwŽ2Ž.re+.aR$Zs{ èÏ’%DvIô„ª÷þ+óuk•qÐä®!ÿòÂ?,Óy7<m¬ÅÿÃc38ÛuiÈaG®°FúÊ¿Çòl®DÙK/Éþj7ªkÕIÓq6èÖ(è%B-QhŒnÚ®1U…î	r{^ŽÒ£5`y%uÐû¾¬®üþMð)4ábŠšeevRÀBšúŒ;úØ=ù»®Ÿ|ä¼tU‹±iÏ0ì\ÄŠÆ·#M_@J d iÇÄÔˆˆ˜®*fÅCÛUdœº;ÿû”dã€œ)ZÉï:`=Ä=ëJuSw§¬­Ñ(,ô÷•xîOXq‹éó(³3ã?Å‡W¼w@BWªtED!›òÓ5Õ‰mÏØÃ`*Õ(§/Çm#–JÛNQum,ßz8ÀŽmÂ`„ˆÂb™,Î¬ ËKPË,ƒûH­þÿ£Å–ÏhH‰>ÿÿâÿ˜žØ¢ü‚kèDÈšÓµ‘À‹Twm™¯O´žÖ^˜[©]áÒš4V¬¥á´$lÙj bÊ¦jâ¡!=Çp$D„Ë¢¼2a#¯®fu
+HçÓÅÈ­º=ÖtD…ßå^å•U~ú1§†-âzœ’öŽX-µý7ÔŠý´B›ÄøÞ(¹(ÅÐ¨GŸ·B“ì»ä©»æË¾…ß=¥¾~_–A¡C¡PTL§b%žT\:ÏåMÖÌ¥NO¨ ÎÌQ;DN~‰&6ëÐ®W"3y]ŠgÜ¢£þ@¿ñô ZRNÃ ý²íbt†ÿû”Dç ­<[ié*àWÆ‹M=å\Aq¦$KÁ^®4õ•p:¤5xq
+y¤Jÿ´oN0
+8`k4âˆ´z±ý@Fí¢néñLˆú;ÓÔ¶¾Â}Õé®¢$X¯àÇóJäF*¦7ð{Jžº˜8X±4u~E%†ûþÚx"†²c!'šÇMê/ÓZÄhs™*³U²“£jåûÞª(}Úl“h?p˜Ž)	5ñVÙÉ…{¹tAF d IÇgáˆyÀ1˜”Ãdð¤åe…“B žeðÜ? ¥lâÁ¨;£z±ÿ[šõ 1HµV¶ÍxÁ'kV4šmV§cŸUÑ‘}¤éÒoM¯¦¯þøÆéâÞµ&˜ Bj Ó@8/BG¤}+Y(P(ómù7wÏôÞ8Ó‰	Ï[šP§ÿƒS¤—ˆfÕºÑùüÆòõ7ŸÈöÅ—ŒSÉ=»üOÝÚA•¶5Z–ÉÔµR@Õ97ËÌèF°†…‰Yò¢l¦Á¬– ÏÕÿû”dæ Ü,YIï:`MçËI1%\(·`§±©[¨lôõ•x#LŽáý–%M	Æœž>«Ðê
+²²¡Äå}I>sKh[ÄÂ7©v¥ÊŽTÕû¿¤ê/­Ký¿'ÿÐñü<"®„¼êò6c'#>Î!Ì[†wn¹ésµ³6Å·#z¥¢ÓÿZâˆ^"&0šÝËiÆ¸xÏ^q­²!B*ÄG»»«‡‡Åm$wx»ÖÍ4ùJÔ«W*šÆTô¢R$¹¨Y%Ž;èš€Ï¥Ì1ÊcÖ»ÇÅehÎ¾~›Ëvžø’;¡unxÖšÒðóï_Î%ñ]iúE˜º/9c>3gß¦e+t«Ší©¸A€[Q&KöÕ ‡ºÞîËóŽÝGU½c-ÞÇ?³Þùüøt‘¹o8Ô‰&´ÐRŒ¨úžÊt‹«IJºfFkR›Î:,¶v1t’ënæ”¾¤$¯Zg˜Úä_Èípm«O«HßáB/Õ—>Tã÷…F@²ÿû”dç ¯?YÉïàT%«)=jLøÑk'¼«@ì ÷½(û=Ü}B=õ%h9aÿ–¤«;ùÿ\Yð,5¥*#*ë[u¦ªoÌqMô8Ö3Í‘É»¦†Úiqª[å­<ÃõºG{ÈS?[5C@T'çÐ4Ð°:ÈPP*öù³»Ë&ml2êiù„9 ëÂ!be¡A¦;dÆnŽÊ$9¿a»]`§.¸&wff‰¶öíMÛú#;P«0sbQ:wMSZj¸3Æuuúò+ }ú|à%ekØ°PB1ø†¼CÆ$¦Ð@Þ>zF¿ÿ&®C}áÎê{÷ÿýzé%I4`sA¶Ûò80’‡á‚¬?¦ªÃè,‰€ Ú;ué=§Ûÿ@žI¬Ä’½×?¨&¢'îffeaÓ:k
+g>1ïÔŠõ#>ïv¶©›¼R–ûÉFº}léüïÁrÁÝ]ÍùºpÁ+%a.ËEg7dŠF!-0e]I8Ü"wÿû”dè 3WøjàY+9aç\	´·i'¼©¬ ÷¡0E9‚"&%L+Àöå¢Œªp•É¯?*,_ûÝõzïÿõ²òa±dîóÏ"ÀÒª)†-Û¿òdð*Î¤¤bjšÔcÊ;¨—ªå
+‹ñä¡¨B!iê$–ÐG*'1e:D®fqTpÓEk•Ì~¶VõZg3YÈ¾õ|Þ¯MwwÉOú3köô4îAf"úÃè<¼ïõb#`ðU•Î=‰›',°I9V_ÀP5¹ÿÆbÿ‹;3@ß@P‡f¹ØÄÌ‡(¦R½ÞÆ•s×ú'ß§Œ»ùhèr4!åÞ¥ôúQ„‘(¦1*Ó
+1Z[AÀÖ|UCdÔÅñ}&±Ç2ýÛÓ…‡K:dfHyYqÒmMV¦%L%uè¦;­Ì<â=«©UC#/¿oÿÓ¿ü¾ˆÛQÑ³±‡!Q¡JLXxÒ‹4RÑï³Ÿp …¹ÿû”dî .QÜyë*òN¥*ð>ILueuçœ­é6­d•‰pãÒûŒ£:|à&’cäÑ
+æ¸	R«#öŽSÞhS¼ï0Út-×GVú}µýSûu¿ûÿÿ£6æôùøœvˆ’MÝŒÍ0¤mBì+žD1QG°‡˜BÕê¢òäØìÅ5©ªk:Äd+ãïçeuGºq âæGž—ÏHLÉ3x²££¥…Øšƒ¬¶Å#™w/£Ðî‚²¹,ð…DL¾‘fŽõìX'B0 Å©PjâSLŠ*ZQºÑ
+û~qQî9œ	ñ7ÊÆVÒ‡©Q¨!ª§´@ñjt»V¾µ)Þùeÿ§owPøF…ÆâN E&é3·>ëìå×t1C‹„få{ÆëÂ÷Z¼·m5Õúýò¨dGŠœãÎµzÕ¯U3’ïæòÇ9èKeNÄ h æ’d)sê÷_]&µu¡G®6@ÁƒmtŠT—yð‡3Î¬js„me±<Cœpå9ÿû”dé 9^[iírL+»Y=nK¤µqç¼©8’­pô•(¢`‡ÂÖ'ùç£ÌVÿh	“Q+šö~ôæŽ×>£îÓ;jvWªAôXÖ\é5G»ÿêI«©"*ŠòÓlpÃ)­Ö¡ÅŒ9”¦S38Ä±§‡Ä¼ò¼Ä™_48Ô$¬Ô¯üƒåƒ¥ƒá LOñù"d¨«”ßeTA'€Cî©Ë)a±d1<%Æ
+Ý)úVÍ~ÚtJWß?÷ñž±¼].Ú²4ÕW™Ãèã*–ÔZ ƒµ/á0H-Ì2 	ê?SÑ(-EUUãöÐ¬ª®’Lß/uçýd?†~åþ…ÑRu*&3 RSZ<4……P}œWb›BK—3KÌ[LÀé¸IÐ˜n?üG5 €Ãü9>Eyªéía¡îTýÔÃÇ][ÙhÎÃ)ÙUJé‘z{’„Ê^Ç·[ô±2˜8ä™	¥½Z‹”`©¡eÅ|ç°­ÿû”dç€÷&ÚëZPP[Y=ëJ¨‘yç½	A8-¤õ•pxµÕ>
+6ÈÆ¿\­MòÆþ ËÄÎWWbžz-]Ë¶”Hôe¥ïÍ.éÒËQ¼œgÿBôi¢]ïå¸")"Y+¤ËJØ|¶›@³‹BÄg6¡Ÿ¦&†u‡•Ç™ @²Q2mLÒºèaìÈ^h*GXe·-GÃ]¤£ÿr|¤Tˆ–7ÖªF»Ý¼›-µÌ‡çÀ`z=B€`la><x°ÌßdlùUÇäUÛ€€³‘Ü_î#‹kÔ$´s.mÖèûLÖö–jwÿÒª¡€³XPÑu°½F×bq”½XÃ°—[ÃÍñtHÐÆI†­Qà%Vrhû~ýÜj´Á@´X(ô!Ácz­^zëÒ¯ÿÕ÷•[àpe…¿S±|³# véOJYZ gNâµL5«^÷à»Êð•œÁO Ídjª˜w5=Ð7ñØ_7 Ñ’'ÿû”dè é,ZáïB`K§+Œ1å]
+¬‘u§¤©aN.4Ä¡(¿ÎÑ*n_ûgPME·ÇÅÿÎf}§'ZŒ2U+D?o™œ¯EýjeÁqÕ©Ê0åJªªD"¤Dˆ'å(äpJ¥šÌÂªd„gîäœFUA}Õ ì~c©þñ²{‹Lœç~Øæ^Î~âÐ¶D—Ã#³£ä¿£™©k]z®~û_ÿÿB"#šfš‚Å]”*ùÛŽÑ»°#/¶7Ï€¨r-—lì‘uÕQ	g¥y¸ 1º’þø5j‰p¯(]NÚ›8î?Ô¡@£À(¸±´.{¾§É0QEš¯ú$8±'©µúÕ!µkŒ„E*Ÿ’&cLt'päÙ—q—jZªË¡¾¾k’û[ïÿâ–ksßxàìº÷´A#E™Œg¸„®¦yr|¹§ÿÇ>-¥í]˜û©ÖÉúJR•‡B**6& ›÷Õ–ypìÙkÏW`PtŸÙÇHÿû”dí Ø-[aëB`\¤»Œ=éK5muç¬MáDl”Å­02Ý½`­\pÑ	4 ,®X«<OVÑ'|ÛÔÉ7}“eÖ—mXµ¬‡$RŒh×yí*ä¬Éý½f<ö’0ˆe9_ƒÂç"•™Àž4„“¶è`Œ½c—ªU·ßÒDúðQre÷+;Ÿ.íþÿS‹Þ´à®šVºeT‘;\ýþ}ÉîY¯cg/|\(²ï£Ò`ÇeÍÆ	%$ëý‹­61)EÞÖ“`7dÞöÁ˜Ã"‹uÿü©”ˆáðøˆŒÑ=¢¨4_=YúQ¿÷£Ø´2Ùø™÷ågÑtÚåwîº$RÔMi— U%Û0ÑšR±v.^æOÉ°»Šy$EëÈâúË#²ôY±bÎ”ªŸ:ûÿÝWê-WñÂ•MCî„³«oüðss’XåÖ­­’YûW×ìv×Ã*E"ìF¾´¦Š*Ø…´Ç9x\?{Õ4Óe¶-ÜtV`AdgŽ”iDÿû”dé€4ZéïàLÄ›%1hJ
+Œ“o§¤ÉA\­´÷•0Œ¯Z¤ÊŠ<‘$ÞCŽh2ÿþWx—~Šªð»ÎJjð1'‹Ã,±ÿ$ÒŠê>	ÿÿ~§	ß)‹“âŒz¨ØÉ|÷Œ­ß‹äÈí@êÚ­¿£–³Iá‘y¾È¢€6Ç2]KGõZšžù?³"Œ¨…+íÍ©ßÕgn•)‰£N±Š5°³¿fH9ˆ×Âª‹íNOUÞ§/ÊjèGlÊNøØ›1óòå\}”øŽ«ÐÉ%)í»w%²]èþ+ø$MÊª3ë°ê€*ÜÎØäËGEn‘ã£qäÁLÒ%gÂ¡ó"²…ÝÉ¶ÞkvÖ47RíÉiZÑ%Fð³{Þ±•ÜÎþMŸ¶?Ö‘kDê ÒÎ™<•(,ÂÐ+p„Ý&|Œ©8ÒŠG%%e˜¤Ë1‹
+E"*}>ªa4 Gá†V®¸|\¸…Å²Ù¿ÿû”dê€71ZaøBàQBë%ï8	P“f½	A!í•(>¤ÅïþD€ªØE—J¼9¾!£Q…ˆÒó
+ƒÁEäÖÖôÑ[K½O­r´Òß³¬…½^²O
+€„¢°%jIš7t[ˆáQ2c' ‰#ó@–ó­SZç›®cëø…Eå‰÷F¯„QòEeYK}cÄ
+F[+u[DŸÃ]çXùçé~j
+C¦*h{©¥”PêAž¿ä+Š¨hBª›Û«ULaÇv“/P”<‹–ºÉÿâÃžºUÎ†]Aº³{Ðò; ÊÕ÷_·õ'uj®&JWöÙ³t“ûÛM^¥vàšÐêï1Ô×D…±ù«¾¼'˜wX·ÖáF;ÄÇÇÄ8×›xS7=fŸÃ—VÙ0ãÕï˜ÔRzïÚsûæ›rÊù}³Ü­A­'úŽÓF—Œub®ä~ÉR8xV2©#t¬2+´MÊÅ$sÕÕgG3c±_ÿû”dó p)XÛZ`V…+\=%L°ÑgŒ="-¤ô	p¿õ›xq3¯8’õqFb*;0°ªßœâ¥Q†rï¨s	\‡°BÐã¯—–z·»Gê¯BT´±*%ø¼>›Ö¬c’àn¶ñóAþ#q<uDð8‹é&–cfGÎJ{Y¬ÕÚŸPÎe®JìÁIKÜåýƒ·ÔAìGI{Z„z#5>¦å¯2²QšÔ÷USZœMÆ^3{ŠC"&J4\4ÂLâñ5X‹«7çP©ôJÉµuY½2‹|ûþÚÏ»õq­Ájí¨zˆ¶£d)V¥=Ñúæi†’VK.f¯¯x9m»­ÕK‡îAŠÃâ"3zÕ$ª)¥Z‰Z¯Rªu 5¡—Aª‘Èlq'gƒÉMÓ®´‡c«€¹BÃïO†Aní9Ú=n·OˆúOëù–ÚµaÅjM†j,enþJíÔ{D/ß+ÁDV‰÷@ñúú§ÍÀÛP¥­µ¥ç*föÏ†ÿû”Dç€´3Ù)ïZàU$‹Ÿ1åJ‘As¦4KÁ_-´÷‰pp¾ë®þÇwP¨–`0ãŒ×d;»‚ÃêRÓ˜}ƒ@‰C¥^¾ÎÔEß½oÍ(x&í§Éœ0¡ç–„®2èˆ­ƒ“âÑƒƒ•M€ ôQ…÷¨*‚`¤¡ŽŠpÌÌËçˆ}´W¿R<ï­híA/ôü¨ÿžù³S÷oÐŽé§õýkÙ½ŒîÕÞaDG	9ú¶ÒâùúdÊ4°@`8ìˆ(Šõ]bGpÍ$¢QX»m©ûŒ-  „Û¨‰U»Eÿ\Üöö7ï?*Ô¶TR{PÍèõÔ>Oú¾Öì—R·ÿÿõôô­‚Ë#n	Ç!%Éa)h?X£ÂCÂiA$8ÍrðNY³´¤§³à€˜œv-QL¼º¦ÛýÐ‹c\l’MbÉWj3Ó¥ÛÙÛ—joÒm:Uûêÿ^¿îšèäF{¥ÁA
+æ:‰‘Zé‚ãÌ»©™åÿû”Då€ƒ,ÚÉíB`[†‹E%â\Yuæ(MÉ`«-ðô‰¸»#ŽŽŸß·†D¦ñqâTÚ¤¿0‰ET”tÆ$ýGÖFÚ„í«š^œ‡êî÷ÝÿH	HeÈxisø¥!(x÷G(ÝLdÍ-ÇéW£õWö,j×øÿ^ÂªÖ~·6(}=ñðÜýö÷½zÊÅ¢ °@ÆTGeCÖ×F•Õ…˜Ç¢_B#©		Ñs¢Z¬ßmw§¢õ¢_ç
+€ñÕ„ÕVÿ?¥Û”V ËÕ@œi•¹–³$$:N)P/=ïØ;JaÎ‚Á&8Àˆ„Ê¬èvZ>Ë+ÐuìƒÝõ¥@õ5º—<?Q»µmêþ*ù:3¡$  “”:™¬iåØÉŒpÞÂÿP„–ÓD÷Ôù$Ö÷Ÿ¦ÂüÏ©ü%Ò Çš¸Öý6úÿâë.9;€‹2*§à¨©`ð‚YURïWD{µ•dß³ÍU-¤²õ¶ŽÿÞÝNGWPEâõîUgÎÿû”då€#XÛiëp?ƒû0%hJåQg‡¼MÉ0–¬ÔÅ•0Q y ¡e¨fý×0	E½=î¬^'s6zËb‹+_tE~Qg‰@g¬	Ÿn«Ök©8kX@‚ëeö5;>òäéÎ:ÝÔª=ËÐ#]…F“Æ‘¦KP¡k)ÅÐñdENº~Û”G·Tú£= ÁuJ”…ñ,§¡&ÉtËRºÉõ²Õ”‚"eA®/Kö¬ÊYÃ(Ã§Ð–jã—ýmVo²YìÌ})vVÊ–Æ™·ãÿ‘ÓG.[8ªRüÙÉjËþûë·vs?¾qÐñÇæ½;;V±o~jºÿEçÍÐ.ÕÙ¸woÝÿ§Ôwx€)¨Ä^‰-„„G	ÿŒAˆ‘£JtØó)‰ á…GÊ>‘y“ÜÔ¸ˆ†Ó{
+Ù™u£Î¢šêc?~îS-ô;îÏÑ)²+U^:“â¡Ô$Ý41:×d àü“g(^¿§ïÝ ´ê¨j¹hÜhrðÊZÿû”dæ k[ØáïpEÃk5fJMyçÌ­èãlÀ´(.ôr¬Y:†Të~áÖá	1 <ÆnP†ç•SG„SÞ<¥ªör‹4Þù‹]†^"Óý?õ>.
+”EÚhã‚‹°†ÄÈ-·*8Á–¸S
+LÇäED°A¯À„c5‚'?òS?Ò7 N€—Ú¤±A¯Rm'k©Ó¢÷@®šÞD¿TjÜ©!¸š ¬º–’Ëfwñ/ý÷âTVÒA\#oU7}Wb“¶°Á·¡·°!Ág¿es?¨¤yÕHþßÍêûèHÃ~ë´>·-6n^Za´òV "¸`R)YœtHäp1æg,kRL$äzáÁEx¶Ñ>:ÖÿôÞuS:Í¡§0'oªò€}ë‡™&ÝÚçRuýWš?ã/ž``ø‘‚!…×,‹„§#–ã´Ó±2æÏ0 Þ„¬ âÕA B±X+?ÁÌäuÿû”dè >[éñ:àY¥+=çLÑsç¬K-ä•‰(çž?•³½˜‰žhL2¯q8ãÇŒÕ>È@¬rÅ
+«¦ß2­=^ÉyŠÒíÔ©‘yÊœ„î‹ÖÉ»/­9âÆ)-b.]ÌÄÚ¼F¢ç¦ÖhÔKšrAPCßµ—_Gf¢™™C©§Î:KaK›ìOO<òú~S1ï,¨îã…VïÞJš»£«6oí¿Úù5~Kòû:ÉöêÇÑHÊÌ’,Ì Å«X¨|¿\ª]Dmß£·nâ¬!1òÄë° 0<TPÔž,¢ ìÏ	#*kb›¾ÎKÑÕE-“Zö:)z›¶+ÿï®iåû’À”M:_ÓAØÉQý=’íïß3ÑE‰E'_«À8–Ã]Ü‹MëøI;¢Û™mq÷Ãà!èÔBÓ×[ÍU+6”[RšUº}¿ëÛÓ§^ù|ŠÎï1Qˆa‘CŠcyìt¥ SJŸ ýM§‰–)¸MjÉ>ÿû”dì k4YáïBàPg[I0â\}ek‡°MÀô–ìÀ”0ŠzëÖø¨žn þTm¯–—·Ÿ1í¼A`µ~óóìuÑÓ^öÝõe®ã™PÈt:=Õ­Õ—WB/TöFÛÙ>Ý»'GQ ãˆèw1B‡(»±Â1©ö±ê|Crñ[]+r‡5²ú M]~9“™÷Éb"3Ô‰BXÜªåÆ¶gQÀÚŠŽõfëøÓúñÇPö0…™W.¦3þ¯M,€4WJý³Fàä?jÜÿuH”8µXÔªÕ DÇÚœçã…SÕ¨£0öržësì…²UôääzhÚÌÍé¦ZÌW¤u?¡v¯žÃl4æ·t•=üRã#	»“‰o¦Ä2\K3¼@^Vý›ôJx¤ÿÌ‹AñÈßñeœìÍØ>>§PH©±¨¥ôsO÷ÒäVeÅÎ<¹Å¥èÍbÇ ð¢ó*¡bý«M…Ò#õåòõ¨è!Èÿû”Dê€ú\\iërlËë=ån	Ü±h§­	/-Tó‰p.lÈÉ5€sOþDÞ:-/w±N®‘«ï¿·gù˜îÙÝ›²1ðo>Ê˜£	äˆùä5?¬4·¥Nm²ÊëuÝ?S"ÄÈ¥6ü ×­ÂÌøÈûVb{ï8êgYÿçà›K+—ò4G
+™kò…h“9i™¯"½þ¾N¸ážegÿÎQ’¨(€IÖ(â^ç3z«TÜ‘{S"Ô¥LÔ CJKAâåL8·ËÅ§v/Ö3ù±@}uK˜L„ªcþÏµîeSÙ5]ÕGêêÂ75F³§5C‰àXó>šý,¥sVEOJ½j2XWƒ5FA¹æ2ñ,§‹ôøÝ1I«KŒ¯kÃÓV¨½÷_%¶¾]õžÏœ£)Ö8<1âêq!èxTÛš`V£¾aqSðµ‘u#•QP8Š¹eÕv:­ €Š&iùi‘øôŽÁc\2ÊÅ¾ûIV¥ÿû”Då ª$ZÉéBPW&‹01¦\Åh§½=-dÅ­(5ïáõ‚Ãd—/ÿX)ZY-+ÔŸ^ÌÈ:Ü cðÛÞ¦”TË!Èá†Öïb”å¹ÖSýu"T¡°ù™ÖÒa•³«Hº	`¢ Šâ¸¥Ôe¸düYUÚI!è_Š@}RAû‹Ìêï¿+!Ï+gt!­d_èÙÛOÛT­[¸ç¹µÑÊ©zmìûS¼Ž½º[£öúÿíÓßÓ]Nƒš–¢ì1Õ[¡2Á-4ãr-«q*GÉÄj<A¿$ÝoÛÛ?9 `ÉWÅq?~ƒ4Cþ‰í¹aã„6­+W¾V†Ž¦Kîÿlª´[®šŸùûšNH£ U©tUæM¯Îx”?ÍãSN–*ÉhhÅþˆíê¸Hžt[dä=|ÖÐÐ"›Ú»P×ùŽ”¸WF„—ºS÷v ªåÛ(À‚I1æ&›Ä_ï÷ 1Xô„o•çÓSîñÇ„×Eÿû”dè€º]yìPZã«mcJõyuç¬Mé/.4ô(5p˜ ÿ8JSçŠhœ £5öFƒÞqüºœ]z±wGíþÿ¦ígrkòëvúÿ~ß¢º¾‡S˜gäLöÿ¥3vš3F–“p‘‚ØQÇŠ¬x~ä8¾2†ðÞ`·f‡¢Ô´ËÙÿU7µÖT:¯D5tËF²3:úÿ¢+þ1|t!R•x¥æ½mºÝ ‡%MÈ8¸ÕÚ­$FÛjãým·£¢¯!Ã9†,g+[AÔÍ¼ç|ÿsþ~P÷\Ô6Ùr¾"9ˆçŸFº©x#ð	¼$:-ug*rbG½Ê¶õ©r?ï:ýû²½ªŠK#Õ–)¸äžv“6	°¶e<Ó-[e$U•àŠ»ã_å°õ8gÏêX«1-¬Ó?¤o¿ëþªÌð1™Rí7wªªW¡Rë8‹:[V§ èÈbçEµÞ™Ë©{×c§Ý¦˜Ë*!§tªk
+Ð¬†N9*Ò]Ó’ÿû”dç€Ó4]iëàS+;i1¢nJ Ñuç¬KR.t÷¡(íQTFV˜¶Ê½sX¢{œÏ]ø¾~¿€–}æýO]Œïùî+uŒêªù%üÅk»éüµÜáÕÈK=;M´
+ÞÔ¦Å¾Jª¢ j/ãÄšÕã5J×Œ”y³ãŠÜ~À#F“ü¨å»ex9ÕtB^|¥¤W{:WÇªº¦DðlÉ¾ý[GÁ}ëJ§¨¾›¾b[]‚Ô@)4ê¼½C ^b©Ìz8¿‹JŸu;ÄyyÀ¶cbAÑS4È]§eç$²ý6ºá‹ª¡D¢fêtà*ÛÙzl€Sj2õ]7EG•THA»£iX
+lä
+ÂHÖ*>vS¡ TÞÄìÅ´5zCo}ïMnÉ	ñ½fw=Qu0}?£ˆ˜±h»ÓÉ­ó³£èQ3Ò5…Í<Ò
+¹OžßÚ5 þfh,d7ž-qZXú”#RI ’RYË™û¥\õAHÝ~ÿû”dê SYÛéïrSf{¯=â\
+ ùm'¬K7î4õ(ÉW¨ªÌEò3ÿÔÍ¯ U¬~ÿ@Õ]~¯¡¬­ýµ5lë’‚U«8Éd·y•Îv¦ôoï¿gÓï^üHÂ“ÊUnA2Ih€’MGÇÒZÔ-TçcXð""`Ð!<Í°XW×¨v?êI¨TegÔ`i;ƒŠEftÌk;M>íÁdÐUÐþÅ¢âäÇ-V(îïo³I¹H}+RE$Q BI¹ÁññjF¤V‘ˆ„Ø+'c+ÁA‘ÿ–(oø–Uî„í9K%7uÛWÛÕ“«¦Köbÿæ©ptâ¨Ò}Ýt¦¤¢TÂUSÇ¹ŒÔ
+i¸omÏÕu0h–WÂcy
+ºÊ“5ö,¦ˆS?ï LÌê,Ú8J˜¢Wu˜aul¨ÄBÎ@ð)½µÄ“É$¦¸[tÕcïÙ’Šœ˜×u a¤PéNØà	d®‘ñRœRÔö›1Ý7A8K…€ÚË.&ÏHÿû”dê 4\û*àSÊkm=n
+lÅq§ K-.4Ä	p×ôGÂ‹š\é„‘<Óþ´Vº/§"Ã¤FDäU½JÈOûúyhïþžO·ÿîœ®º,ÀÜñ§—S“‡;‹»®ÿÜÓa¶$NbõÅLBß$R«lx2¨dÔý¬hk›Þ“úL=/Qt"Ñ6Yˆ³•!Û7W¿9ZU0>µÝ¨ê¦Cªø¹×­^ ôÿ§û¿·o¿Dÿ¼ÖC¾Ôæ]LÜ3—]ŽÑ&#v[–GÕ§JKÌÅ†¥”ØÐLŒMfOÆúÉ's×@—‡‡àE¡[mñ³‹³1ÎÃÞ!îÞ–Vó/cÙ}>V¡Žõj:"¥=O®ºŒÑšÆ`%ÕªnI#‘ 	I¸_…‘­1@¾£^”b±Ø÷^qŒÇÿåk¯î”qQü>r«z©škh=æHÀÛø•Ë:>Ò“d¬qmð`¬ìÛªß˜Q*bF¡Ü¦å¶»Z6Û°”rjKÏÒD3Cÿû”dì€æ4\ié*à[kËm=¢nKÑs§¬MÁb".´Æ•p×ÀI_[–ƒ¥ÿñ¢ ø®;®_übÀ™¤ÈwÕbî¤}ýË2Õ°³%G±œ¥¹”²¥î§ÑoRÞ¦Ø„Ü›;j4æE½¹²Ò‚*XìÎÛ,<âß67>IÒ>ýƒ}ü¯p *êTá1™Òâ¥z¢ÜEQÄ¶™Ñ7Ue»Æzüò•_úE¬²7eút•s{=UZmEÌézó9B‹;çxÓÐ¶ö{:˜/Eý$.¦^`z0Ä³úÈÉ•	E ·[§Ì°ÿ(óïì’jƒò®M)s{!¨‰›ªçÌ.VZ6“f"D¹0³É¤ Ú„-â	ø¨ŒŽû8#"}C{'HŠ§?é¾üÄõ Ú/€ä+J5gj¸÷FVåsÔe®ƒ™ìÏÖŸdý›V1¶c¤k<ÕÌQ{îê–çú÷2hº@ÄÈ·6$PkmËµ¹ÕxmÄ¸ÿû”dâ´1\ië*àJ›=J=	q‡¼«MŽmpõ¥(S:]¿¬8îPÇº±[¯ý[Õá’$(zˆêÞ&¨I
+•GâNCXìV¦v¶ç¬<7J§Õ÷ª†ìÏËìzA)*UÂ•¡56ˆ)$¡þ«BÑê6vÑ"A±åRóÜŠ$-,¥kA
+bÆïä€(7›ó(H÷~<Ã‡ú“óaÖz®®›êŒ^—É9]½.(ç_wüU÷d0ã%Äé~½Ó§ÀôÛ™<.´ßŒ«è]6Ë4Ê¢30ðR
+:ÖsÂ¤fú·üÚÍorþvZOá§_VHqÀâGŠ´NQƒNZuâöï¯:Â¬ŠE±B8³>šÿX‰3)Æ‹BÑÎ—y‰Ï¥V¢íé­tèóûgd¸×Ck´ñ‹ÈxåBˆ`fGHjË	‹:~DçRÁGó¢'ä§!}Ý®§S[è}~M¯4YÕ[öA|Ø¾ÂÁtlÁ»¿Ûóbûs¥Óˆ#÷Û.ÿû”Dé€ð;\ùë*àYÅ«=åLÅo§¬ëNmä”­(œ3JmŒÒ!·ÊN½û ÷mŠe:”æäº¾S_©mßÿ(¯/~¦‘ÿÿÿÏ·;dEÜÚÆÈõ	¬LÁ
+¤·Í¸‘ú%w=u†a¦r»¢¨I¸~äóª\ƒ aœ_¹švLþ™–iÀÙ«ÊS""^ª†ŸÑúve¿^¤ý.š.œõñôl¶ôÃÁ˜¦u27CåÁŸþ­²Ò%ï;\}Ù$Ì4¥‡AÏt6dö4…žQb¾5¸ATYnÆ}¢µj¥Ã2Ì€?TÏ3M‰¡@ÑÎ­ûºw¨7		s66ËÝo©ÿ§~I'GŒ,ðjÿ,ý[ç%‰hÈY‹c5b.éoŒ©\ííw®IâÛáÑQed•ÅYÆrºg«IòÅ1CÎšXˆ‡¥újqEì¬Å"[¢‚õÿCa
+;SUMJ t ØôûS<¨Ršd&&fŸW 0Roøÿû”då€¥0Ú)ìàT‹»E1bn	qÍ0Kvmõ—‰pAµ°éP‘ªk“/‰Uj*ãË.¨YG43	©mZ[Ø¤¯ÜõäMO¬Ó…QBìY:lÆª¤+ÉC+!fåÆð¤¡ªg4yÝÑÅUÉ Dcá‰8LOÝÈÔwÂcßÉ¢}ª+¤yÎûª‡¡F8®Ìˆ"Öcª"¢¹Ý¨ªŒUÑ:Ésš‡³;—´úÜ”´I-AÆêngk‘„,8‘“LAÙKsaw±çÌÊ•,xžÃ–mrž0¶z‰*ÙÂF–“™öZ4Uœw¸å¹É:ÖGëEE­Ý× SOU—¡,ŒÈÉo¯¶­ÿÿûîfíg:Ýè´µÕŸ½~	ÎçÊÅt~POm_5èu&ä³ØÞš2ÞCÕçÖÙI‘èÖ
+Í3¨ÛƒäFÌE5ÕTÄT4ú­?Ñ±W ÛzÉ!
